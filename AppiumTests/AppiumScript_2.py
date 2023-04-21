@@ -5,9 +5,9 @@ from selenium.webdriver.common.by import By
 
 desired_capabilities ={
     'platformName': "Android",
-    'platformVersion': "11",
+    'platformVersion': "12",
     'deviceName': "Android Emulator",
-    'app': "C:/Users/halitsyn.y/PycharmProjects/AppiumTests/app_wiki/wikipedia_2.7.50398.apk"
+    'app': "C:/Users/Yevhen/PycharmProjects/Automation/AppiumTests/app_wiki/wikipedia_2.7.50398.apk"
 }
 
 
@@ -19,14 +19,14 @@ XPATH
 """
 
 driver.implicitly_wait(5)
-#
-# driver.find_element(By.ID, 'org.wikipedia:id/search_container').click()
-#
-# e = driver.find_element(By.ID, "org.wikipedia:id/search_src_text")
-# e.clear()
-# e.send_keys("Python")
-#
-# text = driver.find_element(By.ID, 'org.wikipedia:id/page_list_item_title').text
-#
-#
-# assert 'Python' in text, f'Expected Python to be {text}'
+
+driver.find_element(By.ID, 'org.wikipedia:id/search_container').click()
+
+e = driver.find_element(By.ID, "org.wikipedia:id/search_src_text")
+e.clear()
+e.send_keys("Python")
+
+text = driver.find_element(By.ID, 'org.wikipedia:id/page_list_item_title').text
+
+
+assert 'Python' in text, f'Expected Python to be {text}'

@@ -1,6 +1,5 @@
-from functions.func import Functions
-from locators import locator
-
+from trainee_auto_tests.functions.func import Functions
+from trainee_auto_tests.locators import locator
 
 
 class UiCatalog(Functions):

@@ -7,7 +7,7 @@ options = UiAutomator2Options()
 options.platform_name = "Android"
 options.platform_version = "11"
 options.device_name = "Android Emulator"
-options.app = "C:/Users/halitsyn.y/PycharmProjects/AppiumTests/app_wiki/wikipedia_2.7.50398.apk"
+options.app = "C:/Users/Yevhen/PycharmProjects/Automation/AppiumTests/app_wiki/wikipedia_2.7.50398.apk"
 
 driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', options=options)
 mobile = Browser(Config(

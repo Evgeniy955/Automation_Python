@@ -278,3 +278,4 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,python,pycharm+all
 /Pytest/.idea/
+/trainee_auto_tests/.idea/

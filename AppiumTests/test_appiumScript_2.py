@@ -5,8 +5,10 @@ from selenium.webdriver.common.by import By
 
 desired_capabilities ={
     'platformName': "Android",
-    'platformVersion': "12",
-    'deviceName': "Android Emulator",
+    'platformVersion': "13",
+    'deviceName': "9A191FFAZ004MA",
+    'appPackage': "org.wikipedia",
+    'appActivity': "org.wikipedia.main.MainActivity",
     'app': "C:/Users/Yevhen/PycharmProjects/Automation/AppiumTests/app_wiki/wikipedia_2.7.50398.apk"
 }
 

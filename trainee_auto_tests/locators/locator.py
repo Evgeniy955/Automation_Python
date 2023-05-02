@@ -5,7 +5,7 @@ from appium.webdriver.common.mobileby import MobileBy
 catalog_menu_framework = (by.xpath('//android.view.View[@content-desc="Framework7 Material 1.4.0"]'))
 catalog_calendar = (by.xpath("//*[@content-desc='Calendar / Datepicker ']"))
 calendar_enabled = (by.xpath('//android.view.View[@content-desc="Calendar"]')) # .is_enabled()
-open_calendar = (by.xpath('//*[@content-desc="Autocomplete "]'))
+open_calendar = (by.xpath('//*[@text="Select date range"]'))
 date_from = (by.xpath('(//*[@content-desc="1"])[1]'))
 date_to = (by.xpath('(//*[@content-desc="2"])[1]'))
 confirm_date = (by.xpath('//*[@content-desc="DONE"]'))

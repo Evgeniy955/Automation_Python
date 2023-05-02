@@ -11,7 +11,7 @@ def test_date_picker(mobile):
     mobile.tap_on_date_from()
     mobile.tap_on_date_to()
     mobile.tap_on_confirm_date()
-    mobile.assert_value_date('Aug 29 2022 - Aug 30 2022')
+    mobile.assert_value_date('May 29 2023 - May 30 2023')
 
 
 @pytest.mark.which_app("check_prompt")

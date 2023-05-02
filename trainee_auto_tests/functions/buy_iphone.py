@@ -1,7 +1,6 @@
-from functions.func import Functions
 from time import sleep
-
-from locators import locator
+from trainee_auto_tests.functions.func import Functions
+from trainee_auto_tests.locators import locator
 
 
 class Byiphone(Functions):

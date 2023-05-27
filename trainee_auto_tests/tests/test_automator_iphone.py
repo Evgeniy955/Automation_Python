@@ -1,3 +1,5 @@
+from time import sleep
+
 import pytest
 
 
@@ -8,10 +10,11 @@ def test_date_picker(mobile):
     mobile.is_enabled_calendar()
     mobile.date_picker_scroll()
     mobile.tap_on_open_calendar()
+    sleep(2)
     mobile.tap_on_date_from()
     mobile.tap_on_date_to()
     mobile.tap_on_confirm_date()
-    mobile.assert_value_date('May 29 2023 - May 30 2023')
+    mobile.assert_value_date('May 30 2023 - May 31 2023')
 
 
 @pytest.mark.which_app("check_prompt")

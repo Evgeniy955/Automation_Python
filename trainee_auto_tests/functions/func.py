@@ -61,7 +61,7 @@ def save_screenshot(driver):
     activityname = driver.current_activity
     filename = activityname + ts
 
-    driver.save_screenshot("C:/Users/Yevhen/PycharmProjects/Automation/trainee_auto_tests/screenshots" + filename + ".png")
+    driver.save_screenshot("C:/Users/halitsyn.y/PycharmProjects/Automation/trainee_auto_tests/screenshots" + filename + ".png")
 
 
 # Restart app

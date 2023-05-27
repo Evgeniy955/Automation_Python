@@ -1,13 +1,14 @@
 from selene import by
-from appium.webdriver.common.mobileby import MobileBy
+
 
 #Test_1
 catalog_menu_framework = (by.xpath('//android.view.View[@content-desc="Framework7 Material 1.4.0"]'))
 catalog_calendar = (by.xpath("//*[@content-desc='Calendar / Datepicker ']"))
 calendar_enabled = (by.xpath('//android.view.View[@content-desc="Calendar"]')) # .is_enabled()
-open_calendar = (by.xpath('//*[@text="Select date range"]'))
-date_from = (by.xpath('(//*[@content-desc="1"])[1]'))
-date_to = (by.xpath('(//*[@content-desc="2"])[1]'))
+# open_calendar = (by.xpath('//*[@text="Select date range"]'))
+open_calendar = (by.xpath('//*[@resource-id="ks-calendar-range"]'))
+date_from = (by.xpath('(//android.view.View[@content-desc="30"])[3]'))
+date_to = (by.xpath('(//android.view.View[@content-desc="31"])[2]'))
 confirm_date = (by.xpath('//*[@content-desc="DONE"]'))
 view_date = (by.xpath('//*[@resource-id="ks-calendar-range"]'))
 

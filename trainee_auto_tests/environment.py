@@ -9,7 +9,7 @@ options_catalog.platform_version = "13"
 options_catalog.device_name = "9A191FFAZ004MA"
 options_catalog.app_package = "org.eniblo.uicatalog"
 options_catalog.app_activity = "org.eniblo.uicatalog.MainActivity"
-options_catalog.app = "C:/Users/Yevhen/PycharmProjects/Automation/trainee_auto_tests/app_UICatalog/UI Framework Catalog_v0.3.0.apk"
+options_catalog.app = "/Users/halitsy.y/PycharmProjects/Automation_Python/trainee_auto_tests/app_UICatalog/UI Framework Catalog_v0.3.0.apk"
 
 
 chrome_options = webdriver.ChromeOptions()

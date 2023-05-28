@@ -7,6 +7,7 @@ syntax: glob
  modules.xml
  .idea/misc.xml
  *.ipr
+
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
@@ -15,6 +16,7 @@ syntax: glob
 # AWS User-specific
 .idea/**/aws.xml
 
+/trainee_auto_tests/environment.py
 # Generated files
 .idea/**/contentModel.xml
 

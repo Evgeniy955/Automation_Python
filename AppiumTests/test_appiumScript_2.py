@@ -9,7 +9,7 @@ desired_capabilities ={
     'deviceName': "9A191FFAZ004MA",
     'appPackage': "org.wikipedia",
     'appActivity': "org.wikipedia.main.MainActivity",
-    'app': "C:/Users/Yevhen/PycharmProjects/Automation/AppiumTests/app_wiki/wikipedia_2.7.50398.apk"
+    'app': "C:\\Users\\halitsyn.y\\PycharmProjects\\Automation_Python\\AppiumTests\\app_wiki\\wikipedia_2.7.50398.apk"
 }
 
 

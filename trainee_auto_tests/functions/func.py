@@ -1,4 +1,5 @@
 import time
+from datetime import datetime
 from time import sleep
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.actions import interaction
@@ -52,6 +53,10 @@ class Functions:
 
     def get_url(self, url):
         self.mobile.driver.get(url)
+
+def time_now():
+    server_time = datetime.now().strftime("%H:%M:%S")
+    return server_time[-8:-3]
 
 
 

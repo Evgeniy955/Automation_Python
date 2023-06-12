@@ -1,5 +1,7 @@
 from appium.options.android import UiAutomator2Options
+from appium.options.ios import SafariOptions
 from selenium import webdriver
+from appium.options.ios import XCUITestOptions
 
 
 options_catalog = UiAutomator2Options()
@@ -20,3 +22,19 @@ chrome_options.app_package = 'com.android.chrome'
 # chrome_options.base_url = 'https://www.apple.com/iphone/buy'
 
 
+DESIRED_CAPS_IOS = XCUITestOptions()
+DESIRED_CAPS_IOS.app = "/Users/halitsy.y/Desktop/xcode_project/uicatalog/UICatalogIPA/Apps/UICatalog.ipa"
+DESIRED_CAPS_IOS.device_name = "iPhone X"
+DESIRED_CAPS_IOS.no_reset = True
+DESIRED_CAPS_IOS.udid = "af72c51c9bc0c4b17d3f0fcfbe353689c5bd64c1"
+
+
+DESIRED_CAPS_IOS_2 = {
+  "deviceName": "iPhone X",
+  "platformName": "iOS",
+  "platformVersion": "15.4.1",
+  "app": "/Users/halitsy.y/Desktop/xcode_project/uicatalog/UICatalogIPA/Apps/UICatalog.ipa",
+  "noReset": True,
+  "automationName": "XCUITest",
+  "udid": "af72c51c9bc0c4b17d3f0fcfbe353689c5bd64c1"
+}

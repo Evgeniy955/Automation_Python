@@ -3,8 +3,9 @@ from time import sleep
 import pytest
 
 
+
 @pytest.mark.which_app("uicatalog")
-def test_date_picker(mobile):
+def test_date_picker_android(mobile):
     mobile.tap_on_menu_framework()
     mobile.tap_on_catalog_calendar()
     mobile.is_enabled_calendar()
@@ -14,7 +15,21 @@ def test_date_picker(mobile):
     mobile.tap_on_date_from()
     mobile.tap_on_date_to()
     mobile.tap_on_confirm_date()
-    mobile.assert_value_date('May 30 2023 - May 31 2023')
+    mobile.assert_value_date('Jun 29 2023 - Jun 30 2023')
+
+@pytest.mark.which_app("ios_uicatalog")
+def test_date_picker_ios(mobile):
+    mobile.open_date_picker()
+    mobile.open_calendar()
+    mobile.tap_on_set_date()
+
+    mobile.close_date_popup()
+    mobile.open_time_picker()
+    mobile.close_time_picker()
+
+
+    # mobile.open_time_picker()
+    # sleep(30)
 
 
 @pytest.mark.which_app("check_prompt")

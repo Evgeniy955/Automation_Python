@@ -1,14 +1,15 @@
 import pytest
 from appium import webdriver
-from environment import options_catalog, chrome_options
+from environment import options_catalog, chrome_options, DESIRED_CAPS_IOS_2, DESIRED_CAPS_IOS
 from functions.buy_iphone import Byiphone
-from functions.ui_catalog import UiCatalog, CheckPrompt
+from functions.ui_catalog import UiCatalogAndroid, CheckPrompt, UiCatalogiOS
 from selene import Browser, Config
 
 config = {
-    'uicatalog': (options_catalog, UiCatalog),
+    'uicatalog': (options_catalog, UiCatalogAndroid),
     'check_prompt': (options_catalog, CheckPrompt),
-    'buyiphone': (chrome_options, Byiphone)
+    'buyiphone': (chrome_options, Byiphone),
+    'ios_uicatalog': (DESIRED_CAPS_IOS, UiCatalogiOS)
 }
 
 

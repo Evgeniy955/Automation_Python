@@ -1,8 +1,17 @@
-from trainee_auto_tests.functions.func import Functions
-from trainee_auto_tests.locators import locator
+from time import sleep
+
+from appium.webdriver.common.touch_action import TouchAction
+from selene import be
+from selenium.webdriver import ActionChains
+from selenium.webdriver.common.actions import interaction
+from selenium.webdriver.common.actions.action_builder import ActionBuilder
+from selenium.webdriver.common.actions.pointer_input import PointerInput
+
+from functions.func import Functions
+from locators import locator
 
 
-class UiCatalog(Functions):
+class UiCatalogAndroid(Functions):
 
     def __init__(self, mobile):
         super().__init__(mobile)
@@ -75,3 +84,46 @@ class CheckPrompt(Functions):
 
     def tap_on_close_popup_ins_value(self):
         self.tap_on_element(locator.close_popup)
+
+
+class UiCatalogiOS(Functions):
+
+    def __init__(self, mobile):
+        super().__init__(mobile)
+
+    def open_date_picker(self):
+        self.tap_on_element(locator.catalog_calendar)
+
+    def open_calendar(self):
+        self.tap_on_element(locator.open_calendar)
+
+    def tap_on_set_date(self):
+        self.tap_on_element(locator.date_from)
+
+    def close_date_popup(self):
+        actions = ActionChains(self.mobile.driver)
+        actions.w3c_actions = ActionBuilder(self.mobile.driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
+        actions.w3c_actions.pointer_action.move_to_location(169, 200)
+        actions.w3c_actions.pointer_action.pointer_down()
+        actions.w3c_actions.pointer_action.pause(0.1)
+        actions.w3c_actions.pointer_action.release()
+        actions.perform()
+
+    def open_time_picker(self):
+        for _ in range(3):
+            if self.find_element(locator.time).matching(be.visible):
+                self.tap_on_element(locator.time)
+                break
+            # browser.element("//XCUIElementTypePickerWheel[1]")
+
+    def close_time_picker(self):
+        '''some actions
+        self.tap_on_element(locator.time) '''
+        if self.find_element(locator.time_picker_popup).matching(be.visible):
+            self.tap_on_element(locator.time)
+
+    def tap_on_confirm_date(self):
+        self.tap_on_element(locator.confirm_date)
+
+    def assert_value_date(self, expected_text):
+        self.check_text(expected_text, locator.view_date)

@@ -19,7 +19,9 @@ open_calendar = {'ANDROID' : by.xpath('//*[@resource-id="ks-calendar-range"]'),
 date_from = {'ANDROID' : by.xpath('(//android.view.View[@content-desc="1"])[1]'),
             'IOS' : '//XCUIElementTypeButton[@name="Thursday, 15 June"]/XCUIElementTypeOther[2]'}.get(ENV)
 date_to = {'ANDROID' : by.xpath('(//android.view.View[@content-desc="2"])[1]')}.get(ENV)
-time = {'IOS' : f'//XCUIElementTypeButton[@name="{time_now()}"]'}.get(ENV)
+time = {'IOS' : f'//XCUIElementTypeButton[@name="{time_now()[0]}"]'}.get(ENV)
+time_new = {'IOS' : f'//XCUIElementTypeButton[@name="{time_now()[1]}"]'}.get(ENV)
+time_new_1 = {'IOS' : f'//XCUIElementTypeButton[@name="{time_now()[2]}"]'}.get(ENV)
 time_picker_popup = {'IOS' : '//XCUIElementTypePickerWheel[1]'}.get(ENV)
 # time_picker_popup = {'IOS' : '//*[contains(@value, "17 o’clock"]'}.get(ENV)
 # close_date_popup = {'IOS' : '//XCUIElementTypeStaticText[@name="Date Picker"]'}.get(ENV)

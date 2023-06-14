@@ -25,7 +25,7 @@ chrome_options.app_package = 'com.android.chrome'
 DESIRED_CAPS_IOS = XCUITestOptions()
 DESIRED_CAPS_IOS.app = "/Users/halitsy.y/Desktop/xcode_project/uicatalog/UICatalogIPA/Apps/UICatalog.ipa"
 DESIRED_CAPS_IOS.device_name = "iPhone X"
-DESIRED_CAPS_IOS.no_reset = True
+DESIRED_CAPS_IOS.no_reset = False
 DESIRED_CAPS_IOS.udid = "af72c51c9bc0c4b17d3f0fcfbe353689c5bd64c1"
 
 

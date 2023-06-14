@@ -1,4 +1,4 @@
-from time import sleep
+from time import sleep, time
 
 from appium.webdriver.common.touch_action import TouchAction
 from selene import be
@@ -101,19 +101,23 @@ class UiCatalogiOS(Functions):
         self.tap_on_element(locator.date_from)
 
     def close_date_popup(self):
-        actions = ActionChains(self.mobile.driver)
-        actions.w3c_actions = ActionBuilder(self.mobile.driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
-        actions.w3c_actions.pointer_action.move_to_location(169, 200)
-        actions.w3c_actions.pointer_action.pointer_down()
-        actions.w3c_actions.pointer_action.pause(0.1)
-        actions.w3c_actions.pointer_action.release()
-        actions.perform()
+        self.close_popup()
 
     def open_time_picker(self):
         for _ in range(3):
             if self.find_element(locator.time).matching(be.visible):
                 self.tap_on_element(locator.time)
                 break
+            elif self.find_element(locator.time_new).matching(be.visible):
+                    self.tap_on_element(locator.time_new)
+                    break
+            elif self.find_element(locator.time_new_1).matching(be.visible):
+                    self.tap_on_element(locator.time_new_1)
+                    break
+        print(f"Time {self.find_element(locator.time)} is wrong" )
+        print(f"Time {self.find_element(locator.time_new)} is wrong" )
+        print(f"Time {self.find_element(locator.time_new_1)} is wrong" )
+        exit()
             # browser.element("//XCUIElementTypePickerWheel[1]")
 
     def close_time_picker(self):

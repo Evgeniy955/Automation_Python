@@ -37,6 +37,16 @@ class Functions:
             actions.w3c_actions.pointer_action.move_to_location(w / 2, h/4)
             actions.perform()
 
+    def close_popup(self):
+        w = self.mobile.driver.get_window_size().get("width")
+        h = self.mobile.driver.get_window_size().get("height")
+        actions = ActionChains(self.mobile.driver)
+        actions.w3c_actions = ActionBuilder(self.mobile.driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
+        actions.w3c_actions.pointer_action.move_to_location(w / 2, h / 4)
+        actions.w3c_actions.pointer_action.pointer_down()
+        actions.w3c_actions.pointer_action.pause(0.1)
+        actions.w3c_actions.pointer_action.release()
+        actions.perform()
 
     def check_text(self, expected_text, locator):
         assert expected_text == self.find_element(locator).get(query.text), f'Expected text: {expected_text}'
@@ -56,8 +66,22 @@ class Functions:
 
 def time_now():
     server_time = datetime.now().strftime("%H:%M:%S")
-    return server_time[-8:-3]
+    time = server_time[-8:-3]
+    minute = int(time[-1])
+    if minute == 0:
+        minute = 1
+    time_new = time.replace(time[-1], str(minute - 1))
+    time_new_2 = time.replace(time[-1], str(minute + 1))
+    return time,time_new,time_new_2
 
+
+# def time_new():
+#     time_new = time_now()
+#     minute = int(time_new[-1])
+#     if minute == 0:
+#         minute = 1
+#     time_new.replace(time_new[-1], str(minute - 1))
+#     return time_new
 
 
 # Screenshot

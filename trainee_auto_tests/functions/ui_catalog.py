@@ -7,127 +7,147 @@ from selenium.webdriver.common.actions import interaction
 from selenium.webdriver.common.actions.action_builder import ActionBuilder
 from selenium.webdriver.common.actions.pointer_input import PointerInput
 
-from functions.func import Functions
-from locators import locator
+
+
+
+from trainee_auto_tests.functions.func import Functions
+from trainee_auto_tests.locators import locators
 
 
 class UiCatalogAndroid(Functions):
 
-    def __init__(self, mobile):
-        super().__init__(mobile)
+    @classmethod
+    def tap_on_menu_framework(cls):
+        cls.tap_on_element(locators.catalog_menu_framework)
 
-    def tap_on_menu_framework(self):
-        self.tap_on_element(locator.catalog_menu_framework)
+    @classmethod
+    def tap_on_catalog_calendar(cls):
+        cls.tap_on_element(locators.catalog_calendar)
 
-    def tap_on_catalog_calendar(self):
-        self.tap_on_element(locator.catalog_calendar)
-
-    def is_enabled_calendar(self):
-        self.is_enable(locator.calendar_enabled)
+    @classmethod
+    def is_enabled_calendar(cls):
+        cls.is_enable(locators.calendar_enabled)
 
     # def date_picker_scroll(self):
     #     self.scroll(2, 10, 10)
+    @classmethod
+    def date_picker_scroll(cls):
+        cls.scroll()
 
-    def date_picker_scroll(self):
-        self.scroll()
+    @classmethod
+    def tap_on_open_calendar(cls):
+        cls.tap_on_element(locators.open_calendar)
 
-    def tap_on_open_calendar(self):
-        self.tap_on_element(locator.open_calendar)
+    @classmethod
+    def tap_on_date_from(cls):
+        cls.tap_on_element(locators.date_from)
 
-    def tap_on_date_from(self):
-        self.tap_on_element(locator.date_from)
+    @classmethod
+    def tap_on_date_to(cls):
+        cls.tap_on_element(locators.date_to)
 
-    def tap_on_date_to(self):
-        self.tap_on_element(locator.date_to)
+    @classmethod
+    def tap_on_confirm_date(cls):
+        cls.tap_on_element(locators.confirm_date)
 
-    def tap_on_confirm_date(self):
-        self.tap_on_element(locator.confirm_date)
-
-    def assert_value_date(self, expected_text):
-        self.check_text(expected_text, locator.view_date)
+    @classmethod
+    def assert_value_date(cls, expected_text):
+        cls.check_text(expected_text, locators.view_date)
 
 
 class CheckPrompt(Functions):
 
-    def __init__(self, driver):
-        super().__init__(driver)
+    @classmethod
+    def tap_on_catalog_menu_photon(cls):
+        cls.tap_on_element(locators.catalog_menu_photon)
 
-    def tap_on_catalog_menu_photon(self):
-        self.tap_on_element(locator.catalog_menu_photon)
+    @classmethod
+    def tap_on_dialogs(cls):
+        cls.tap_on_element(locators.dialogs)
 
-    def tap_on_dialogs(self):
-        self.tap_on_element(locator.dialogs)
+    @classmethod
+    def tap_on_show_promt(cls):
+        cls.tap_on_element(locators.show_promt)
 
-    def tap_on_show_promt(self):
-        self.tap_on_element(locator.show_promt)
+    @classmethod
+    def assert_header_popup_hello(cls):
+        cls.check_tag_name('Hello', locators.popup_hello)
 
-    def assert_header_popup_hello(self):
-        self.check_tag_name('Hello', locator.popup_hello)
+    @classmethod
+    def assert_text_popup_hello(cls):
+        cls.check_tag_name('Example', locators.text_example)
 
-    def assert_text_popup_hello(self):
-        self.check_tag_name('Example', locator.text_example)
+    @classmethod
+    def clear_field_popup(cls):
+        cls.clear_field(locators.field_value)
 
-    def clear_field_popup(self):
-        self.clear_field(locator.field_value)
+    @classmethod
+    def value_insert(cls):
+        cls.value_field("Test", locators.field_value)
 
-    def value_insert(self):
-        self.value_field("Test", locator.field_value)
+    @classmethod
+    def tap_on_close_popup_hello(cls):
+        cls.tap_on_element(locators.close_popup)
 
-    def tap_on_close_popup_hello(self):
-        self.tap_on_element(locator.close_popup)
+    @classmethod
+    def assert_header_popup_ins_value(cls):
+        cls.check_tag_name('Inserted Value', locators.inserted_value_popup)
 
-    def assert_header_popup_ins_value(self):
-        self.check_tag_name('Inserted Value', locator.inserted_value_popup)
+    @classmethod
+    def assert_text_popup_ins_value(cls):
+        cls.check_tag_name('Test', locators.value_popup)
 
-    def assert_text_popup_ins_value(self):
-        self.check_tag_name('Test', locator.value_popup)
-
-    def tap_on_close_popup_ins_value(self):
-        self.tap_on_element(locator.close_popup)
+    @classmethod
+    def tap_on_close_popup_ins_value(cls):
+        cls.tap_on_element(locators.close_popup)
 
 
 class UiCatalogiOS(Functions):
 
-    def __init__(self, mobile):
-        super().__init__(mobile)
 
-    def open_date_picker(self):
-        self.tap_on_element(locator.catalog_calendar)
+    @classmethod
+    def open_date_picker(cls):
+        cls.tap_on_element(locators.catalog_calendar)
 
-    def open_calendar(self):
-        self.tap_on_element(locator.open_calendar)
+    @classmethod
+    def open_calendar(cls):
+        cls.tap_on_element(locators.open_calendar)
 
-    def tap_on_set_date(self):
-        self.tap_on_element(locator.date_from)
+    @classmethod
+    def tap_on_set_date(cls):
+        cls.tap_on_element(locators.date_from)
 
-    def close_date_popup(self):
-        self.close_popup()
+    @classmethod
+    def close_date_popup(cls):
+        cls.close_popup()
 
-    def open_time_picker(self):
+    @classmethod
+    def open_time_picker(cls):
         for _ in range(3):
-            if self.find_element(locator.time).matching(be.visible):
-                self.tap_on_element(locator.time)
+            if cls.find_element(locators.time).matching(be.visible):
+                cls.tap_on_element(locators.time)
                 break
-            elif self.find_element(locator.time_new).matching(be.visible):
-                    self.tap_on_element(locator.time_new)
-                    break
-            elif self.find_element(locator.time_new_1).matching(be.visible):
-                    self.tap_on_element(locator.time_new_1)
-                    break
-        print(f"Time {self.find_element(locator.time)} is wrong" )
-        print(f"Time {self.find_element(locator.time_new)} is wrong" )
-        print(f"Time {self.find_element(locator.time_new_1)} is wrong" )
-        exit()
+            # elif self.find_element(locator.time_new).matching(be.visible):
+            #         self.tap_on_element(locator.time_new)
+            #         break
+            # elif self.find_element(locator.time_new_1).matching(be.visible):
+            #         self.tap_on_element(locator.time_new_1)
+            #         break
+            print(f"Time {cls.find_element(locators.time)} is wrong" )
             # browser.element("//XCUIElementTypePickerWheel[1]")
-
-    def close_time_picker(self):
+        if not cls.find_element(locators.time).matching(be.visible):
+            exit()
+    @classmethod
+    def close_time_picker(cls):
         '''some actions
         self.tap_on_element(locator.time) '''
-        if self.find_element(locator.time_picker_popup).matching(be.visible):
-            self.tap_on_element(locator.time)
+        if cls.find_element(locators.time_picker_popup).matching(be.visible):
+            cls.tap_on_element(locators.time)
 
-    def tap_on_confirm_date(self):
-        self.tap_on_element(locator.confirm_date)
+    @classmethod
+    def tap_on_confirm_date(cls):
+        cls.tap_on_element(locators.confirm_date)
 
-    def assert_value_date(self, expected_text):
-        self.check_text(expected_text, locator.view_date)
+    @classmethod
+    def assert_value_date(cls, expected_text):
+        cls.check_text(expected_text, locators.view_date)

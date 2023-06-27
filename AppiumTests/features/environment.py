@@ -7,7 +7,7 @@ def before_scenario(context, scenario):
         'platformName': "Android",
         'platformVersion': "11",
         'deviceName': "Android Emulator",
-        'app': "C:/Users/halitsyn.y/PycharmProjects/AppiumTests/app_wiki/wikipedia_2.7.50398.apk"
+        'app': "/Users/halitsy.y/PycharmProjects/Automation_Python/AppiumTests/app_wiki/wikipedia_2.7.50398.apk"
     }
 
     context.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_capabilities=desired_capabilities)

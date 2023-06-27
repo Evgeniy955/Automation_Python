@@ -26,7 +26,8 @@ DESIRED_CAPS_IOS = XCUITestOptions()
 DESIRED_CAPS_IOS.app = "/Users/halitsy.y/Desktop/xcode_project/uicatalog/UICatalogIPA/Apps/UICatalog.ipa"
 DESIRED_CAPS_IOS.device_name = "iPhone X"
 DESIRED_CAPS_IOS.no_reset = False
-DESIRED_CAPS_IOS.udid = "af72c51c9bc0c4b17d3f0fcfbe353689c5bd64c1"
+# DESIRED_CAPS_IOS.udid = "af72c51c9bc0c4b17d3f0fcfbe353689c5bd64c1"
+DESIRED_CAPS_IOS.udid = "049826d3c6a146e218a6d28535e170b2b3e97320"
 
 
 DESIRED_CAPS_IOS_2 = {

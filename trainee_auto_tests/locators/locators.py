@@ -1,8 +1,8 @@
 from selene import by
 
-from trainee_auto_tests.functions.func import time_now
+from functions.func import time_now
 
-# from functions.func import time_now
+# from functions_ipad.func import time_now
 
 # QA_URL = {'DEV': 'https://d-openapi-test.zysbox.dev',
 # #           'QA': 'https://q-openapi-test.zysbox.dev'}.get(ENV)
@@ -54,6 +54,9 @@ payment_option = (by.xpath("//*[@value='fullPrice']"))
 one_time_payment = (by.xpath("//*[@value='add-to-cart']"))
 add_to_bag = (by.xpath("//*[@class='button button-block']"))
 review_bag = (by.xpath("//*[@class='rs-iteminfo-title']"))
+
+
+open_date_picker = ('//XCUIElementTypeStaticText[@name="Date Picker"]')
 
 
 

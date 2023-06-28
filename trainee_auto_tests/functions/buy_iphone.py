@@ -1,5 +1,5 @@
 # from time import sleep
-# from functions.func import Functions
+# from functions_ipad.func import Functions
 # from locators import locators
 #
 #

@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20e8621b-c732-43cf-9f85-a44f58f57364" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/Automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Automation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumTests/.idea/AppiumTests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumTests/.idea/AppiumTests.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/environment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/buy_iphone.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/buy_iphone.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/func.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/func.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/ui_catalog.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/ui_catalog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators/locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPad_BDD/date_picker_iPad/date_picker_iPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/iPad_BDD/date_picker_iPad/date_picker_iPad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPad_BDD/functions/func.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPad_BDD/functions/ui_catalog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPad_BDD/locators/locators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/locators.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,21 +109,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_automator_iphone.test_date_picker_3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="trainee_Project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_automator_iphone.test_date_picker_3&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test_automator_iphone.test_date_picker_android" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="trainee_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,21 +154,36 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_ui_catalog.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="trainee_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/iPad_BDD/date_picker_iPad/features" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/iPad_BDD/date_picker_iPad/features/test_ui_catalog.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.func" />
+      <item itemvalue="Python tests.Python tests in test_ui_catalog.py" />
       <item itemvalue="Python tests.Python tests for test_automator_iphone.test_show_prompt" />
       <item itemvalue="Python tests.Python tests for test_automator_iphone.test_date_picker_android" />
-      <item itemvalue="Python tests.Python tests for test_automator_iphone.test_date_picker_3" />
       <item itemvalue="Python tests.Python tests for test_automator_iphone.test_date_picker_ios" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests for test_automator_iphone.test_date_picker_ios" />
+        <item itemvalue="Python tests.Python tests in test_ui_catalog.py" />
         <item itemvalue="Python tests.Python tests for test_automator_iphone.test_show_prompt" />
         <item itemvalue="Python tests.Python tests for test_automator_iphone.test_date_picker_android" />
         <item itemvalue="Python.func" />
-        <item itemvalue="Python tests.Python tests for test_automator_iphone.test_date_picker_3" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +214,8 @@
       <workItem from="1686756698987" duration="3498000" />
       <workItem from="1686815917317" duration="14295000" />
       <workItem from="1686955736273" duration="3348000" />
+      <workItem from="1687963177579" duration="4136000" />
+      <workItem from="1687990546135" duration="2602000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed UICatalog iOS">
       <created>1686777737338</created>
@@ -231,6 +236,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iPad_BDD/functions_ipad/ui_catalog.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iPad_BDD/functions_ipad/ui_catalog.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -242,7 +259,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/trainee_auto_tests$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1669212819533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/environment_py$.coverage" NAME=" Coverage Results" MODIFIED="1687166563948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/environment_py$.coverage" NAME=" Coverage Results" MODIFIED="1687993269384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/trainee_auto_tests$.coverage" NAME=" Coverage Results" MODIFIED="1669213186773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/environment_py$func.coverage" NAME="func Coverage Results" MODIFIED="1686579881726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/functions" />
   </component>

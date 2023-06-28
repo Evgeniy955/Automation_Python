@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a775f51e-2b79-4a7b-88cc-1c4252c1b906" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/date_picker_iPad/date_picker_iPad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/date_picker_iPad/features/test_date_picker.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/date_picker_iPad/features/test_ui_catalog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/functions/func.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/functions/ui_catalog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/locators/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Automation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppiumTests/features/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppiumTests/features/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/environment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trainee_auto_tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/functions/buy_iphone.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/functions/buy_iphone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/functions/func.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/functions/func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/functions/ui_catalog.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/functions/ui_catalog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/locators/locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/locators/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/date_picker_iPad/date_picker_iPad.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/date_picker_iPad/date_picker_iPad.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +71,7 @@
       <recent name="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/test date picker iPad" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_ui_catalog.py">
+  <component name="RunManager" selected="Python tests.Python tests for test_automator_iphone.test_date_picker_ios">
     <configuration name="test_date_picker.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <module name="Automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -198,10 +186,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_automator_iphone.test_date_picker_ios" />
         <item itemvalue="Python tests.Python tests in test_ui_catalog.py" />
         <item itemvalue="Python.date_picker_iPad" />
         <item itemvalue="Behave.test_date_picker.feature" />
-        <item itemvalue="Python tests.Python tests for test_automator_iphone.test_date_picker_ios" />
         <item itemvalue="Python tests.Python tests for test_automator_iphone.tests" />
       </list>
     </recent_temporary>
@@ -259,7 +247,7 @@
       <workItem from="1686557621530" duration="296000" />
       <workItem from="1686754842488" duration="1161000" />
       <workItem from="1687612233283" duration="7288000" />
-      <workItem from="1687765324861" duration="8478000" />
+      <workItem from="1687765324861" duration="12249000" />
     </task>
     <task id="LOCAL-00001" summary="auto">
       <created>1682090332515</created>
@@ -289,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686557876195</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Test ipad">
+      <created>1687874816974</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687874816974</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +305,8 @@
     <MESSAGE value="update autotests on Mac" />
     <MESSAGE value="auto" />
     <MESSAGE value="Update uiautomator tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update uiautomator tests" />
+    <MESSAGE value="Test ipad" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test ipad" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -332,7 +328,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/trainee_auto_tests/conftest.py</url>
-          <line>36</line>
+          <line>34</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -345,6 +341,26 @@
           <line>16</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/conftest.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/conftest.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/conftest.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trainee_auto_tests/conftest.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -356,7 +372,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Automation$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1682170438686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trainee_auto_tests" />
     <SUITE FILE_PATH="coverage/Automation$for.coverage" NAME="for Coverage Results" MODIFIED="1682089887470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Automation_course" />
-    <SUITE FILE_PATH="coverage/Automation_Python$.coverage" NAME=" Coverage Results" MODIFIED="1687874614702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/date_picker_iPad/features" />
+    <SUITE FILE_PATH="coverage/Automation_Python$.coverage" NAME=" Coverage Results" MODIFIED="1687876102723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trainee_auto_tests/tests" />
     <SUITE FILE_PATH="coverage/Automation$AppiumScript_2.coverage" NAME="AppiumScript_2 Coverage Results" MODIFIED="1682088511959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppiumTests" />
     <SUITE FILE_PATH="coverage/Automation_Python$my.coverage" NAME="my Coverage Results" MODIFIED="1686009306015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Automation_Python$date_picker_iPad.coverage" NAME="date_picker_iPad Coverage Results" MODIFIED="1687874475298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/date_picker_iPad" />

@@ -2,12 +2,11 @@ import pytest
 from appium import webdriver
 from selene.support.shared import browser
 
-from environment import options_catalog, chrome_options, DESIRED_CAPS_IOS_2, DESIRED_CAPS_IOS
-# from functions.buy_iphone import Byiphone
-from functions.ui_catalog import UiCatalogAndroid, CheckPrompt, UiCatalogiOS
+from environment import options_catalog, chrome_options, DESIRED_CAPS_IOS_2, DESIRED_CAPS_IOS, DESIRED_CAPS_iPad
+# from functions_ipad.buy_iphone import Byiphone
+from functions.ui_catalog import UiCatalogAndroid, CheckPrompt, UiCatalogiOS, UiCatalogiPad
 from selene import Browser, Config
 
-from trainee_auto_tests.iPad_BDD.functions.ui_catalog import UiCatalogiPad
 
 config = {
     'uicatalog': (options_catalog, UiCatalogAndroid),
@@ -25,9 +24,20 @@ pytest_plugins = ['iPad_BDD.date_picker_iPad.date_picker_iPad']
 
 @pytest.fixture()
 def mobile(request):
-    # which_app = request.node.get_closest_marker("which_app").args[0]
-    # cap, instance = config['ios_uicatalog']
-    cap = DESIRED_CAPS_IOS
+    which_app = request.node.get_closest_marker("which_app").args[0]
+    cap, instance = config[which_app]
+    browser_instance = Browser(Config(
+        driver=webdriver.Remote('http://127.0.0.1:4723/wd/hub', options=cap),
+        timeout=20,
+    ))
+    browser.config.driver = browser_instance.driver
+    yield instance
+    browser_instance.quit()
+
+
+@pytest.fixture()
+def browser_catalog(request):
+    cap = DESIRED_CAPS_iPad
     instance = UiCatalogiPad
     browser_instance = Browser(Config(
         driver=webdriver.Remote('http://127.0.0.1:4723/wd/hub', options=cap),

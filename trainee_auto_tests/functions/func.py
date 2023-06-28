@@ -102,6 +102,31 @@ class Functions:
         driver.reset()
 
 
+    @staticmethod
+    def open_menu():
+        w = browser.driver.get_window_size().get("width")
+        h = browser.driver.get_window_size().get("height")
+        actions = ActionChains(browser.driver)
+        actions.w3c_actions = ActionBuilder(browser.driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
+        actions.w3c_actions.pointer_action.move_to_location(w / 54, h / 2)
+        actions.w3c_actions.pointer_action.pointer_down()
+        actions.w3c_actions.pointer_action.move_to_location(w / 3, h / 2)
+        actions.w3c_actions.pointer_action.release()
+        actions.perform()
+
+
+    @staticmethod
+    def close_menu():
+        w = browser.driver.get_window_size().get("width")
+        h = browser.driver.get_window_size().get("height")
+        actions = ActionChains(browser.driver)
+        actions.w3c_actions = ActionBuilder(browser.driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
+        actions.w3c_actions.pointer_action.move_to_location(w / 1.5, h / 2)
+        actions.w3c_actions.pointer_action.pointer_down()
+        actions.w3c_actions.pointer_action.pause(0.1)
+        actions.w3c_actions.pointer_action.release()
+        actions.perform()
+
 '''Scroll down
 w = driver.get_window_size().get("width")
 h = driver.get_window_size().get("height")

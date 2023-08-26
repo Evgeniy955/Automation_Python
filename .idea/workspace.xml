@@ -5,18 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a775f51e-2b79-4a7b-88cc-1c4252c1b906" name="Changes" comment="auto">
-      <change beforePath="$PROJECT_DIR$/.idea/Automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Automation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/.idea/trainee_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/.idea/trainee_Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/.idea/trainee_Project.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/trainee_auto_tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/functions/buy_iphone.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/functions/buy_iphone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/functions/func.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/functions/func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/functions/ui_catalog.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/functions/ui_catalog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/locators/locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/locators/locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/tests/test_automator_iphone.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/tests/test_automator_iphone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/New OpenDocument Text.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/app_UICatalog/UI Framework Catalog_v0.3.0.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/app_UICatalog/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/environment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/functions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/functions/buy_iphone.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/functions/func.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/functions/ui_catalog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/locators/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/pytest.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/screenshots/.MainActivity2022_06_04_010941.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/screenshots/.MainActivity2022_06_04_023524.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/tests/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/tests/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/tests/test_automator_iphone.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="ui_catalog_ipad" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +82,21 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_automator_iphone.test_date_picker_ios">
+  <component name="RunManager" selected="Python tests.Python tests in test_ui_catalog.py">
+    <configuration name="test_date_picker.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="Automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/date picker iPad/features/test_date_picker.feature" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Automation" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,19 +119,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_automator_iphone.test_date_picker_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="date_picker_iPad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trainee_auto_tests/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/date_picker_iPad" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_automator_iphone.test_date_picker_2&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/date_picker_iPad/date_picker_iPad.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_automator_iphone.test_date_picker_ios" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -139,51 +172,36 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_wiki.test_wiki" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_ui_catalog.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Automation_course" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/date_picker_iPad/features" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_wiki.test_wiki&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_appiumscript.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AppiumTests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/AppiumTests/test_appiumscript.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/date_picker_iPad/features/test_ui_catalog.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Behave.test_date_picker.feature" />
       <item itemvalue="Python.Automation" />
-      <item itemvalue="Python tests.Python tests for test_automator_iphone.test_date_picker_2" />
+      <item itemvalue="Python.date_picker_iPad" />
+      <item itemvalue="Python tests.Python tests in test_ui_catalog.py" />
       <item itemvalue="Python tests.Python tests for test_automator_iphone.test_date_picker_ios" />
       <item itemvalue="Python tests.Python tests for test_automator_iphone.tests" />
-      <item itemvalue="Python tests.Python tests for test_wiki.test_wiki" />
-      <item itemvalue="Python tests.Python tests in test_appiumscript.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_automator_iphone.test_date_picker_ios" />
         <item itemvalue="Python tests.Python tests for test_automator_iphone.tests" />
-        <item itemvalue="Python tests.Python tests for test_automator_iphone.test_date_picker_2" />
-        <item itemvalue="Python tests.Python tests for test_wiki.test_wiki" />
-        <item itemvalue="Python tests.Python tests in test_appiumscript.py" />
+        <item itemvalue="Python tests.Python tests for test_automator_iphone.test_date_picker_ios" />
+        <item itemvalue="Python tests.Python tests in test_ui_catalog.py" />
+        <item itemvalue="Python.date_picker_iPad" />
+        <item itemvalue="Behave.test_date_picker.feature" />
       </list>
     </recent_temporary>
   </component>
@@ -237,6 +255,7 @@
       <workItem from="1685961563293" duration="8045000" />
       <workItem from="1686036710904" duration="14422000" />
       <workItem from="1686229500046" duration="11398000" />
+      <workItem from="1693050927681" duration="104000" />
     </task>
     <task id="LOCAL-00001" summary="auto">
       <created>1682090332515</created>
@@ -300,17 +319,27 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/trainee_auto_tests/tests/test_automator_iphone.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="25" />
+          <url>file://$PROJECT_DIR$/trainee_auto_tests/conftest.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/trainee_auto_tests/tests/test_automator_iphone.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/date_picker_iPad/date_picker_iPad.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/functions/ui_catalog.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="instance" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Automation$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1682170438686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trainee_auto_tests" />

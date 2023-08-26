@@ -1,10 +1,10 @@
 desired_capabilities_catalog = {
     'platformName': "Android",
     'platformVersion': "13",
-    'deviceName': "Android Emulator",
+    # 'deviceName': "Android Emulator",
     'appPackage': "org.eniblo.uicatalog",
     'appActivity': "org.eniblo.uicatalog.MainActivity",
-    'app': "C:\\Users\\Yevhen\\PycharmProjects\\trainee_Project\\app_UICatalog\\UI Framework Catalog_v0.3.0.apk"
+    'app': "C:/Users/halitsyn.y/PycharmProjects/Automation_Python/trainee_auto_tests/app_UICatalog/UI Framework Catalog_v0.3.0.apk"
 }
 
 desired_capabilities_buyiphone = {

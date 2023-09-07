@@ -4,31 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a775f51e-2b79-4a7b-88cc-1c4252c1b906" name="Changes" comment="auto">
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/.idea/trainee_Project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/New OpenDocument Text.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/app_UICatalog/UI Framework Catalog_v0.3.0.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/app_UICatalog/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/environment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/functions/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/functions/buy_iphone.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/functions/func.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/functions/ui_catalog.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/locators/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/pytest.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/screenshots/.MainActivity2022_06_04_010941.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/screenshots/.MainActivity2022_06_04_023524.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/tests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/tests/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/tests/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/tests/test_automator_iphone.py" beforeDir="false" />
+    <list default="true" id="a775f51e-2b79-4a7b-88cc-1c4252c1b906" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +39,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2OFLVjm2Bw2pHOfpEVqmen9l7nQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -82,21 +62,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests in test_ui_catalog.py">
-    <configuration name="test_date_picker.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
-      <module name="Automation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/date picker iPad/features/test_date_picker.feature" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.digits">
     <configuration name="Automation" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,12 +107,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="digits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Automation_course" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Automation_course/digits.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_automator_iphone.test_date_picker_ios" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="$PROJECT_DIR$/trainee_auto_tests/venv/bin/python" />
-      <option name="SDK_NAME" value="Python 3.10 (trainee_auto_tests)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trainee_auto_tests/tests" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -188,8 +175,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Behave.test_date_picker.feature" />
       <item itemvalue="Python.Automation" />
+      <item itemvalue="Python.digits" />
       <item itemvalue="Python.date_picker_iPad" />
       <item itemvalue="Python tests.Python tests in test_ui_catalog.py" />
       <item itemvalue="Python tests.Python tests for test_automator_iphone.test_date_picker_ios" />
@@ -197,11 +184,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.digits" />
         <item itemvalue="Python tests.Python tests for test_automator_iphone.tests" />
         <item itemvalue="Python tests.Python tests for test_automator_iphone.test_date_picker_ios" />
         <item itemvalue="Python tests.Python tests in test_ui_catalog.py" />
         <item itemvalue="Python.date_picker_iPad" />
-        <item itemvalue="Behave.test_date_picker.feature" />
       </list>
     </recent_temporary>
   </component>
@@ -256,6 +243,10 @@
       <workItem from="1686036710904" duration="14422000" />
       <workItem from="1686229500046" duration="11398000" />
       <workItem from="1693050927681" duration="104000" />
+      <workItem from="1693051039478" duration="629000" />
+      <workItem from="1693230635050" duration="31000" />
+      <workItem from="1693481325322" duration="118000" />
+      <workItem from="1694015499739" duration="537000" />
     </task>
     <task id="LOCAL-00001" summary="auto">
       <created>1682090332515</created>
@@ -278,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685365059423</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="auto">
+      <created>1693051241747</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693051241747</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,17 +340,18 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Automation_Python$digits.coverage" NAME="digits Coverage Results" MODIFIED="1693230660631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Automation_course" />
     <SUITE FILE_PATH="coverage/Automation$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1682170438686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trainee_auto_tests" />
-    <SUITE FILE_PATH="coverage/Automation_Python$test_appiumscript.coverage" NAME="test_appiumscript Coverage Results" MODIFIED="1685099315677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppiumTests" />
-    <SUITE FILE_PATH="coverage/Automation$for.coverage" NAME="for Coverage Results" MODIFIED="1682089887470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Automation_course" />
-    <SUITE FILE_PATH="coverage/Automation$.coverage" NAME=" Coverage Results" MODIFIED="1683027253796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trainee_auto_tests/tests" />
-    <SUITE FILE_PATH="coverage/Automation_Python$.coverage" NAME=" Coverage Results" MODIFIED="1686556666414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trainee_auto_tests/tests" />
     <SUITE FILE_PATH="coverage/Automation$AppiumScript_2.coverage" NAME="AppiumScript_2 Coverage Results" MODIFIED="1682088511959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppiumTests" />
-    <SUITE FILE_PATH="coverage/Automation_Python$test.coverage" NAME="test Coverage Results" MODIFIED="1681906344706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trainee_Project_OLD/tests" />
-    <SUITE FILE_PATH="coverage/Automation_Python$my.coverage" NAME="my Coverage Results" MODIFIED="1686009306015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Automation_Python$test_appiumScript_2.coverage" NAME="test_appiumScript_2 Coverage Results" MODIFIED="1685047195132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppiumTests" />
+    <SUITE FILE_PATH="coverage/Automation_Python$.coverage" NAME=" Coverage Results" MODIFIED="1686556666414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trainee_auto_tests/tests" />
+    <SUITE FILE_PATH="coverage/Automation$.coverage" NAME=" Coverage Results" MODIFIED="1683027253796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trainee_auto_tests/tests" />
     <SUITE FILE_PATH="coverage/Automation_Python$func.coverage" NAME="func Coverage Results" MODIFIED="1686223989664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trainee_auto_tests/functions" />
-    <SUITE FILE_PATH="coverage/Automation$digits.coverage" NAME="digits Coverage Results" MODIFIED="1682089857541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Automation_course" />
+    <SUITE FILE_PATH="coverage/Automation_Python$my.coverage" NAME="my Coverage Results" MODIFIED="1686009306015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Automation$for.coverage" NAME="for Coverage Results" MODIFIED="1682089887470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Automation_course" />
+    <SUITE FILE_PATH="coverage/Automation_Python$test_appiumscript.coverage" NAME="test_appiumscript Coverage Results" MODIFIED="1685099315677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppiumTests" />
+    <SUITE FILE_PATH="coverage/Automation_Python$test.coverage" NAME="test Coverage Results" MODIFIED="1681906344706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trainee_Project_OLD/tests" />
     <SUITE FILE_PATH="coverage/Automation$table.coverage" NAME="table Coverage Results" MODIFIED="1682090019069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Automation_course" />
+    <SUITE FILE_PATH="coverage/Automation$digits.coverage" NAME="digits Coverage Results" MODIFIED="1682089857541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Automation_course" />
+    <SUITE FILE_PATH="coverage/Automation_Python$test_appiumScript_2.coverage" NAME="test_appiumScript_2 Coverage Results" MODIFIED="1685047195132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppiumTests" />
   </component>
 </project>

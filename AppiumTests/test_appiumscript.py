@@ -1,10 +1,9 @@
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
-from selene import Browser, Config
+from selene import Browser, Config, by
+from selene.core import query
 from selene.support.shared import browser
 from selenium.webdriver.common.by import By
-
-
 
 # desired_capabilities ={
 #     'platformName': "Android",
@@ -33,15 +32,18 @@ browser_instance = Browser(Config(
 browser.config.driver = browser_instance.driver
 
 
-# driver.find_element(By.ID, 'org.wikipedia:id/search_container').click()
-browser.element('//android.widget.ImageView[@content-desc="Поиск по Википедии"]').click()
+def test_wiki():
+    browser.element(by.id('org.wikipedia:id/search_container')).click()
+    # driver.find_element(By.ID, 'org.wikipedia:id/search_container').click()
 
+    e = browser.element(by.id("org.wikipedia:id/search_src_text"))
+    # e = driver.find_element(By.ID, "org.wikipedia:id/search_src_text")
+    e.clear()
+    e.send_keys("Python")
 
-e = browser.element("org.wikipedia:id/search_src_text")
-e.clear()
-e.send_keys("Python")
+    # text = driver.find_element(By.ID, 'org.wikipedia:id/page_list_item_title').text
+    text = browser.element(by.id('org.wikipedia:id/page_list_item_title')).get(query.text)
 
-text = browser.driver.find_element(By.ID, 'org.wikipedia:id/page_list_item_title').text
+    assert 'Python' in text, f'Expected Python to be {text}'
 
-
-# assert 'Python' in text, f'Expected Python to be {text}'
+test_wiki()

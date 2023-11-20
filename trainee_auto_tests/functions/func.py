@@ -76,3 +76,7 @@ h = driver.get_window_size().get("height")
 touch = TouchAction(driver)
 touch.press(x=w / 2, y=330).move_to(x=w / 2, y=h).release().perform()
 '''
+
+from selene.support.shared.jquery_style import s
+
+s('#myButton').should(be.clickable).click()

@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a775f51e-2b79-4a7b-88cc-1c4252c1b906" name="Changes" comment="update Windows project">
-      <change beforePath="$PROJECT_DIR$/.idea/Automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Automation.iml" afterDir="false" />
+    <list default="true" id="a775f51e-2b79-4a7b-88cc-1c4252c1b906" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_Project_OLD/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_Project_OLD/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_Project_OLD/functions/buy_iphone.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_Project_OLD/functions/buy_iphone.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trainee_auto_tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainee_auto_tests/functions/func.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainee_auto_tests/functions/func.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Windows_autotests" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,122 +47,6 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_automator_iphone.test_date_picker">
-    <configuration name="Automation" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Automation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Yevhen\AppData\Local\Programs\Python\Python310\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_automator_iphone.test_buy_iphone" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trainee_auto_tests/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_automator_iphone.test_buy_iphone&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_automator_iphone.test_date_picker" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trainee_auto_tests/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_automator_iphone.test_date_picker&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_automator_iphone.test_show_prompt" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trainee_auto_tests/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_automator_iphone.test_show_prompt&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_appiumScript_2.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AppiumTests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/AppiumTests/test_appiumScript_2.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_appiumscript.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AppiumTests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/AppiumTests/test_appiumscript.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.Automation" />
-      <item itemvalue="Python tests.Python tests for test_automator_iphone.test_buy_iphone" />
-      <item itemvalue="Python tests.Python tests in test_appiumScript_2.py" />
-      <item itemvalue="Python tests.Python tests in test_appiumscript.py" />
-      <item itemvalue="Python tests.Python tests for test_automator_iphone.test_date_picker" />
-      <item itemvalue="Python tests.Python tests for test_automator_iphone.test_show_prompt" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python tests.Python tests for test_automator_iphone.test_show_prompt" />
-        <item itemvalue="Python tests.Python tests for test_automator_iphone.test_date_picker" />
-        <item itemvalue="Python tests.Python tests in test_appiumscript.py" />
-        <item itemvalue="Python tests.Python tests in test_appiumScript_2.py" />
-        <item itemvalue="Python tests.Python tests for test_automator_iphone.test_buy_iphone" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -213,6 +94,13 @@
       <workItem from="1690208092891" duration="110000" />
       <workItem from="1691049725394" duration="608000" />
       <workItem from="1691050519322" duration="537000" />
+      <workItem from="1693051474158" duration="87000" />
+      <workItem from="1693052940906" duration="318000" />
+      <workItem from="1693083609800" duration="1463000" />
+      <workItem from="1694047407166" duration="1538000" />
+      <workItem from="1694432857805" duration="44000" />
+      <workItem from="1696521552758" duration="704000" />
+      <workItem from="1696526775108" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="auto">
       <created>1682090332515</created>
@@ -228,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685200602239</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update Windows project">
+      <created>1693051541451</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693051541452</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,8 +150,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/trainee_auto_tests/tests/test_automator_iphone.py</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trainee_auto_tests/tests/test_automator_iphone.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trainee_auto_tests/tests/test_automator_iphone.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

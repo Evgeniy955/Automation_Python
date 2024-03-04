@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a775f51e-2b79-4a7b-88cc-1c4252c1b906" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/ca_driver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/cmd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/test_start_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/uicatalog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/web_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Automation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppiumTests/app_wiki.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +60,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/halitsy.y/PycharmProjects/Automation_Python&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Mac__autotests&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/halitsy.y/PycharmProjects/Automation_Python/AppiumTests&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -62,7 +70,16 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.digits">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AppiumTests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AppiumTests/driver_selenium_4_10" />
+      <recent name="$PROJECT_DIR$/AppiumTests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.ca_driver">
     <configuration name="Automation" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,7 +89,7 @@
       </envs>
       <option name="SDK_HOME" value="C:\Users\Yevhen\AppData\Local\Programs\Python\Python310\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -85,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="date_picker_iPad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ca_driver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,102 +110,27 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/date_picker_iPad" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AppiumTests/driver_selenium_4_16" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/date_picker_iPad/date_picker_iPad.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/ca_driver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="digits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Automation_course" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Automation_course/digits.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_automator_iphone.test_date_picker_ios" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$PROJECT_DIR$/trainee_auto_tests/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trainee_auto_tests/tests" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_automator_iphone.test_date_picker_ios&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_automator_iphone.tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trainee_auto_tests/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_automator_iphone.tests&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_ui_catalog.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/date_picker_iPad/features" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/trainee_auto_tests/iPad_BDD/date_picker_iPad/features/test_ui_catalog.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.Automation" />
-      <item itemvalue="Python.digits" />
-      <item itemvalue="Python.date_picker_iPad" />
-      <item itemvalue="Python tests.Python tests in test_ui_catalog.py" />
-      <item itemvalue="Python tests.Python tests for test_automator_iphone.test_date_picker_ios" />
-      <item itemvalue="Python tests.Python tests for test_automator_iphone.tests" />
+      <item itemvalue="Python.ca_driver" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.digits" />
-        <item itemvalue="Python tests.Python tests for test_automator_iphone.tests" />
-        <item itemvalue="Python tests.Python tests for test_automator_iphone.test_date_picker_ios" />
-        <item itemvalue="Python tests.Python tests in test_ui_catalog.py" />
-        <item itemvalue="Python.date_picker_iPad" />
+        <item itemvalue="Python.ca_driver" />
       </list>
     </recent_temporary>
   </component>
@@ -247,6 +189,122 @@
       <workItem from="1693230635050" duration="31000" />
       <workItem from="1693481325322" duration="118000" />
       <workItem from="1694015499739" duration="537000" />
+      <workItem from="1704409744926" duration="304000" />
+      <workItem from="1704477098185" duration="586000" />
+      <workItem from="1704477980723" duration="3000" />
+      <workItem from="1704497152763" duration="17000" />
+      <workItem from="1704497447962" duration="30000" />
+      <workItem from="1704497539704" duration="9000" />
+      <workItem from="1704497873130" duration="1160000" />
+      <workItem from="1704573939130" duration="16000" />
+      <workItem from="1704573971422" duration="1558000" />
+      <workItem from="1704575549038" duration="2276000" />
+      <workItem from="1704578128725" duration="109000" />
+      <workItem from="1704578279731" duration="4000" />
+      <workItem from="1704578333437" duration="48000" />
+      <workItem from="1704578399043" duration="1197000" />
+      <workItem from="1704579648226" duration="1319000" />
+      <workItem from="1704581519536" duration="279000" />
+      <workItem from="1704581869744" duration="81000" />
+      <workItem from="1704581966506" duration="754000" />
+      <workItem from="1704582742395" duration="158000" />
+      <workItem from="1704582944938" duration="6000" />
+      <workItem from="1704583033751" duration="800000" />
+      <workItem from="1704583848644" duration="7000" />
+      <workItem from="1704583984057" duration="31000" />
+      <workItem from="1704584043166" duration="1046000" />
+      <workItem from="1704637471493" duration="7000" />
+      <workItem from="1704637487865" duration="77000" />
+      <workItem from="1704637730486" duration="706000" />
+      <workItem from="1704638499083" duration="64000" />
+      <workItem from="1704638630362" duration="88000" />
+      <workItem from="1704638878169" duration="21000" />
+      <workItem from="1704638976818" duration="51000" />
+      <workItem from="1704639042037" duration="38000" />
+      <workItem from="1704639319645" duration="28000" />
+      <workItem from="1704639374461" duration="605000" />
+      <workItem from="1704640068232" duration="256000" />
+      <workItem from="1704640337594" duration="40000" />
+      <workItem from="1704640714503" duration="592000" />
+      <workItem from="1704641578854" duration="1061000" />
+      <workItem from="1704642720280" duration="19000" />
+      <workItem from="1704642764093" duration="86000" />
+      <workItem from="1704643661823" duration="119000" />
+      <workItem from="1704645618764" duration="159000" />
+      <workItem from="1704646035926" duration="2359000" />
+      <workItem from="1704654385547" duration="18000" />
+      <workItem from="1704654430750" duration="350000" />
+      <workItem from="1704655826537" duration="20000" />
+      <workItem from="1704709893084" duration="386000" />
+      <workItem from="1704722038542" duration="176000" />
+      <workItem from="1704722616689" duration="2012000" />
+      <workItem from="1704724654765" duration="651000" />
+      <workItem from="1704725383257" duration="15000" />
+      <workItem from="1704725425016" duration="13000" />
+      <workItem from="1704725464149" duration="726000" />
+      <workItem from="1704726350258" duration="222000" />
+      <workItem from="1704727497895" duration="1228000" />
+      <workItem from="1704731088782" duration="134000" />
+      <workItem from="1704731628887" duration="1337000" />
+      <workItem from="1704733041298" duration="37000" />
+      <workItem from="1704733088254" duration="3313000" />
+      <workItem from="1704736587086" duration="788000" />
+      <workItem from="1704737651774" duration="495000" />
+      <workItem from="1704738172088" duration="330000" />
+      <workItem from="1704738639933" duration="1461000" />
+      <workItem from="1704745097371" duration="1573000" />
+      <workItem from="1704748953571" duration="25000" />
+      <workItem from="1704749064607" duration="56000" />
+      <workItem from="1704795021672" duration="675000" />
+      <workItem from="1704795716305" duration="268000" />
+      <workItem from="1704796019516" duration="7000" />
+      <workItem from="1704803565262" duration="68000" />
+      <workItem from="1704803815744" duration="83000" />
+      <workItem from="1704812194184" duration="7000" />
+      <workItem from="1704813277183" duration="29000" />
+      <workItem from="1704819188019" duration="205000" />
+      <workItem from="1704820191431" duration="9000" />
+      <workItem from="1704820214556" duration="13000" />
+      <workItem from="1704820235103" duration="61000" />
+      <workItem from="1704820309712" duration="1720000" />
+      <workItem from="1704822050859" duration="4083000" />
+      <workItem from="1704829898722" duration="15000" />
+      <workItem from="1704829922702" duration="12000" />
+      <workItem from="1704830158170" duration="7000" />
+      <workItem from="1704830285230" duration="117000" />
+      <workItem from="1704830427460" duration="84000" />
+      <workItem from="1704830534116" duration="2000" />
+      <workItem from="1704830934160" duration="10000" />
+      <workItem from="1704832091515" duration="29000" />
+      <workItem from="1704927687272" duration="39000" />
+      <workItem from="1704927758136" duration="14000" />
+      <workItem from="1705025065109" duration="8000" />
+      <workItem from="1705049031259" duration="2000" />
+      <workItem from="1705087517942" duration="279000" />
+      <workItem from="1705444028190" duration="5000" />
+      <workItem from="1705679900457" duration="111000" />
+      <workItem from="1706368836399" duration="7000" />
+      <workItem from="1706473634469" duration="10000" />
+      <workItem from="1706473732396" duration="3000" />
+      <workItem from="1706546471762" duration="83000" />
+      <workItem from="1707308835000" duration="1857000" />
+      <workItem from="1707312690668" duration="2990000" />
+      <workItem from="1707344701029" duration="76000" />
+      <workItem from="1707350508969" duration="86000" />
+      <workItem from="1707383869549" duration="823000" />
+      <workItem from="1707387011800" duration="468000" />
+      <workItem from="1707387599121" duration="210000" />
+      <workItem from="1707408472925" duration="58000" />
+      <workItem from="1707408547291" duration="765000" />
+      <workItem from="1707409490156" duration="759000" />
+      <workItem from="1707411267658" duration="636000" />
+      <workItem from="1707423896447" duration="10000" />
+      <workItem from="1707425570239" duration="5000" />
+      <workItem from="1707425821989" duration="118000" />
+      <workItem from="1707426009037" duration="24000" />
+      <workItem from="1707426176473" duration="16000" />
+      <workItem from="1708013886688" duration="184000" />
+      <workItem from="1709579255296" duration="644000" />
     </task>
     <task id="LOCAL-00001" summary="auto">
       <created>1682090332515</created>
@@ -331,6 +389,71 @@
           <line>16</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/test_start_server.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/uicatalog.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/uicatalog.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/uicatalog.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/ca_driver.py</url>
+          <line>196</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/ca_driver.py</url>
+          <line>203</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/ca_driver.py</url>
+          <line>208</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/ca_driver.py</url>
+          <line>210</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/ca_driver.py</url>
+          <line>212</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/ca_driver.py</url>
+          <line>214</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/ca_driver.py</url>
+          <line>215</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/ca_driver.py</url>
+          <line>161</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AppiumTests/driver_selenium_4_16/ca_driver.py</url>
+          <line>162</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -341,17 +464,23 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Automation_Python$digits.coverage" NAME="digits Coverage Results" MODIFIED="1693230660631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Automation_course" />
+    <SUITE FILE_PATH="coverage/Automation_Python$ca_driver.coverage" NAME="ca_driver Coverage Results" MODIFIED="1707425902033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppiumTests/driver_selenium_4_16" />
     <SUITE FILE_PATH="coverage/Automation$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1682170438686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trainee_auto_tests" />
     <SUITE FILE_PATH="coverage/Automation$AppiumScript_2.coverage" NAME="AppiumScript_2 Coverage Results" MODIFIED="1682088511959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppiumTests" />
-    <SUITE FILE_PATH="coverage/Automation_Python$.coverage" NAME=" Coverage Results" MODIFIED="1686556666414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trainee_auto_tests/tests" />
     <SUITE FILE_PATH="coverage/Automation$.coverage" NAME=" Coverage Results" MODIFIED="1683027253796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trainee_auto_tests/tests" />
     <SUITE FILE_PATH="coverage/Automation_Python$func.coverage" NAME="func Coverage Results" MODIFIED="1686223989664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trainee_auto_tests/functions" />
+    <SUITE FILE_PATH="coverage/Automation_Python$for.coverage" NAME="for Coverage Results" MODIFIED="1704409968040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Automation_course" />
+    <SUITE FILE_PATH="coverage/Automation_Python$uicatalog.coverage" NAME="uicatalog Coverage Results" MODIFIED="1704578760398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Automation_Python$.coverage" NAME=" Coverage Results" MODIFIED="1704583066041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppiumTests" />
     <SUITE FILE_PATH="coverage/Automation_Python$my.coverage" NAME="my Coverage Results" MODIFIED="1686009306015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Automation$for.coverage" NAME="for Coverage Results" MODIFIED="1682089887470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Automation_course" />
+    <SUITE FILE_PATH="coverage/Automation_Python$new.coverage" NAME="new Coverage Results" MODIFIED="1704746393511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppiumTests/driver_selenium_4_10" />
     <SUITE FILE_PATH="coverage/Automation_Python$test_appiumscript.coverage" NAME="test_appiumscript Coverage Results" MODIFIED="1685099315677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppiumTests" />
     <SUITE FILE_PATH="coverage/Automation_Python$test.coverage" NAME="test Coverage Results" MODIFIED="1681906344706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trainee_Project_OLD/tests" />
+    <SUITE FILE_PATH="coverage/Automation_Python$cmd.coverage" NAME="cmd Coverage Results" MODIFIED="1704642825817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppiumTests/driver_selenium_4_10" />
     <SUITE FILE_PATH="coverage/Automation$table.coverage" NAME="table Coverage Results" MODIFIED="1682090019069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Automation_course" />
     <SUITE FILE_PATH="coverage/Automation$digits.coverage" NAME="digits Coverage Results" MODIFIED="1682089857541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Automation_course" />
+    <SUITE FILE_PATH="coverage/Automation_Python$ca_driver__1_.coverage" NAME="ca_driver (1) Coverage Results" MODIFIED="1707312766980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppiumTests/driver_selenium_4_16" />
     <SUITE FILE_PATH="coverage/Automation_Python$test_appiumScript_2.coverage" NAME="test_appiumScript_2 Coverage Results" MODIFIED="1685047195132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppiumTests" />
   </component>
 </project>
